@@ -35,14 +35,6 @@
                     {
                        include_once 'php/p_1x1.php';
                     }
-                    /*elseif($alto==1 && $ancho==2)
-                    {
-                        include_once 'php/p_1x2.php';
-                    }
-                    elseif($alto==2 && $ancho==1)
-                    {
-                        include_once 'php/p_2x1.php';
-                    }*/
                     elseif($alto==1 && $ancho>1)
                     {
                         include_once 'php/p_1x2plus.php';
@@ -50,6 +42,10 @@
                     elseif($alto>1 && $ancho==1)
                     {
                         include_once 'php/p_2plusx1.php';
+
+                    }else{
+
+                        include_once 'php/p_muchos.php';
                     }
                     
                    

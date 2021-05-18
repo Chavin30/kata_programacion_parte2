@@ -31,7 +31,7 @@
                     echo "border-".$b.":".$numero->border;
                 }echo $numero->size;
                 if($numero->num==4 || $numero->num==9){
-                    echo "padding:1px";
+                    echo "padding-right:2px";
                 }
             echo "'></div>";
 
@@ -42,19 +42,18 @@
                     echo "border-".$b.":".$numero->border;
                 }echo $numero->size;
                 if($numero->num==4 || $numero->num==9){
-                    echo "padding:1px;";
+                    echo "padding-right:2px";
                 }
                 echo "'></div>";
             }
             //cajas privotes-------------------------------------------
-
             echo "<div  class='m' style='";
                 foreach($numero->c2_f as $b){
                     echo "border-".$b.":".$numero->border;
                 }echo $numero->size;
                 
                 if($numero->num==4 || $numero->num==9){
-                    echo "padding:1px";
+                    echo "padding-right:2px";
                 }
             echo "'></div>";
         echo "</div>";  
