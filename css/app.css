@@ -25,6 +25,18 @@
     border-radius: 5px;
     border: solid 2px;
     border-color: rgb(206, 196, 196);
+    margin-right: 5px;
+}
+
+.form-control-2{
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: rgb(206, 196, 196);
+    margin-right: 5px;
 }
 
 .button{
@@ -71,5 +83,17 @@ section
 }
 
 section .m{
-    margin: 5px;
+    margin: 2px;
 }
+
+.r{
+  margin-right: 10px;
+  display: flex;  
+}
+
+.m{
+    margin: 2px;
+}
+
+
+
